@@ -72,13 +72,9 @@ export default {
                 this.calculatedData = response.data;
                 console.log(this.calculatedData, response.data)
             } catch (error) {
-                console.error('Ошибка при расчете стоимости:', error);
+                console.error('Error in cost calculation:', error);
             }
         },
     },
 };
 </script>
-
-<style scoped>
-
-</style>
