@@ -40,7 +40,7 @@
             <ul class="list-disc pl-6">
                 <li v-for="(item, index) in calculatedData.details" :key="index">{{ item }}</li>
             </ul>
-            <p class="mt-4 text-lg font-bold">Итоговая стоимость: {{ calculatedData.totalPrice }} $</p>
+            <p class="mt-4 text-lg font-bold">Total price: {{ calculatedData.totalPrice }} $</p>
         </div>
     </div>
 </template>
